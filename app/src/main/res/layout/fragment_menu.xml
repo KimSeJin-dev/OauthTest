@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0037FF">
+
+
+    <TextView
+        android:id="@+id/access_token_btn"
+        android:layout_width="120dp"
+        android:layout_height="110dp"
+        android:layout_below="@+id/requestAccessbtn"
+        android:gravity="center"
+        android:text="access_token"
+        android:textColor="#FFFFFF"
+        />
+
+    <TextView
+        android:id="@+id/tokentype"
+        android:layout_width="120dp"
+        android:layout_height="110dp"
+        android:layout_below="@+id/access_token_btn"
+        android:gravity="center"
+        android:text="token_type_btn"
+        android:textColor="#FFFFFF"
+        />
+
+    <TextView
+        android:id="@+id/expires"
+        android:layout_width="120dp"
+        android:layout_height="110dp"
+        android:layout_below="@+id/tokentype"
+        android:gravity="center"
+        android:text="expires_in"
+        android:textColor="#FFFFFF"
+        />
+
+    <TextView
+        android:id="@+id/refresh_token"
+        android:layout_width="120dp"
+        android:layout_height="110dp"
+        android:layout_below="@+id/expires"
+        android:gravity="center"
+        android:text="refresh_token"
+        android:textColor="#FFFFFF"
+        />
+
+    <TextView
+        android:id="@+id/scope"
+        android:layout_width="120dp"
+        android:layout_height="110dp"
+        android:layout_below="@+id/refresh_token"
+        android:gravity="center"
+        android:text="scope"
+        android:textColor="#FFFFFF"
+        />
+
+    <TextView
+        android:id="@+id/user_seq_no"
+        android:layout_width="120dp"
+        android:layout_height="110dp"
+        android:layout_below="@+id/scope"
+        android:gravity="center"
+        android:text="user_seq_no"
+        android:textColor="#FFFFFF"
+        />
+
+    <TextView
+        android:id="@+id/accesstoken_content"
+        android:layout_width="120dp"
+        android:layout_height="110dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="-1dp"
+        android:layout_marginEnd="2dp"
+        android:layout_toEndOf="@+id/access_token_btn"
+        android:gravity="center"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/tokentype_content"
+        android:layout_width="120dp"
+        android:layout_height="110dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="112dp"
+        android:layout_marginEnd="5dp"
+        android:layout_toEndOf="@+id/access_token_btn"
+        android:gravity="center"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/expires_content"
+        android:layout_width="120dp"
+        android:layout_height="110dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="221dp"
+        android:layout_marginEnd="6dp"
+        android:layout_toEndOf="@+id/access_token_btn"
+        android:gravity="center"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/refresh_token_content"
+        android:layout_width="120dp"
+        android:layout_height="110dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="332dp"
+        android:layout_marginEnd="6dp"
+        android:layout_toEndOf="@+id/access_token_btn"
+        android:gravity="center"
+        android:textColor="#FFFFFF" />
+
+
+    <TextView
+        android:id="@+id/scope_content"
+        android:layout_width="120dp"
+        android:layout_height="110dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="441dp"
+        android:layout_marginEnd="7dp"
+        android:layout_toEndOf="@+id/access_token_btn"
+        android:gravity="center"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/user_seq_no_content"
+        android:layout_width="120dp"
+        android:layout_height="110dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="552dp"
+        android:layout_marginEnd="7dp"
+        android:layout_toEndOf="@+id/access_token_btn"
+        android:gravity="center"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>

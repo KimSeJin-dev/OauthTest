@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="시작" />
+
+
+    <Button
+        android:id="@+id/menubtn"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@+id/button"
+        android:text="메뉴" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/button">
+
+        <fragment
+            android:id="@+id/fragment_center"
+            android:name="so.ido.oauthtest_1117.MainFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </FrameLayout>
+
+</RelativeLayout>
